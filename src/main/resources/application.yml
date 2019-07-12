@@ -1,0 +1,40 @@
+dingtalk:
+  corp:
+    app-key: dingjkxsfg6lfqjpeqcf
+    app-secret: 01Y-w84myue6Ndi-B_XW2PzStGLfKhbBkbYhv7ux6Egi3HeBClj083ZdN7KiSjRV
+  api:
+    oapi: https://oapi.dingtalk.com
+    access-token: https://oapi.dingtalk.com/gettoken
+    user-admin: https://oapi.dingtalk.com/user/get_admin
+    user-info: https://oapi.dingtalk.com/user/get
+    user-create: https://oapi.dingtalk.com/user/create
+    user-update: https://oapi.dingtalk.com/user/update
+    user-delete: https://oapi.dingtalk.com/user/delete
+    user-batch-delete: https://oapi.dingtalk.com/user/batchdelete
+    user-simple-list: https://oapi.dingtalk.com/user/simplelist
+    user-list: https://oapi.dingtalk.com/user/list
+    user-page-list: https://oapi.dingtalk.com/user/listbypage
+    user-dept-member: https://oapi.dingtalk.com/user/getDeptMember
+    user-admin-scope: https://oapi.dingtalk.com/topapi/user/get_admin_scope
+    userid-by-unionid: https://oapi.dingtalk.com/user/getUseridByUnionid
+    org-user-count: https://oapi.dingtalk.com/user/get_org_user_count
+    department-list: https://oapi.dingtalk.com/department/list
+    department-info: https://oapi.dingtalk.com/department/get
+    sub-department-id-list: https://oapi.dingtalk.com/department/list_ids
+    department-create: https://oapi.dingtalk.com/department/create
+    department-update: https://oapi.dingtalk.com/department/update
+    department-delete: https://oapi.dingtalk.com/department/delete
+    department-parent-by-dept-id: https://oapi.dingtalk.com/department/list_parent_depts_by_dept
+    department-parent-by-userid: https://oapi.dingtalk.com/department/list_parent_depts
+    role-list: https://oapi.dingtalk.com/topapi/role/list
+    role-user-simple-list: https://oapi.dingtalk.com/topapi/role/simplelist
+    role-group: https://oapi.dingtalk.com/topapi/role/getrolegroup
+    role-info: https://oapi.dingtalk.com/topapi/role/getrole
+    role-create: https://oapi.dingtalk.com/role/add_role
+    role-update: https://oapi.dingtalk.com/role/update_role
+    role-delete: https://oapi.dingtalk.com/role/delete_role
+    role-group-create: https://oapi.dingtalk.com/role/add_role_group
+    roles-add-for-emps: https://oapi.dingtalk.com/topapi/role/addrolesforemps
+    roles-delete-for-emps: https://oapi.dingtalk.com/topapi/role/removerolesforemps
+swagger:
+  enable: true
