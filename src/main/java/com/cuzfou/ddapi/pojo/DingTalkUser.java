@@ -4,23 +4,18 @@ import java.util.List;
 
 import com.alibaba.fastjson.JSONObject;
 
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 
-@ApiModel(value = "钉钉用户详情", description = "钉钉用户详情")
 @Data
 public class DingTalkUser {
 
 	/**
 	 * 员工唯一标识ID（不可修改），企业内必须唯一。 长度为1~64个字符，如果不传，服务器将自动生成一个userid
 	 */
-	@ApiModelProperty(value = "用户id", name = "userid", example = "1", required = true)
 	private String userid;
 	/**
 	 * 成员名称。 长度为1~64个字符
 	 */
-	@ApiModelProperty(value = "姓名", name = "username", example = "张三", required = true)
 	private String name;
 	/**
 	 * 在对应的部门中的排序, Map结构的json字符串, key是部门的Id, value是人员在这个部门的排序值

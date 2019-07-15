@@ -36,14 +36,9 @@ import com.dingtalk.api.response.OapiUserSimplelistResponse;
 import com.dingtalk.api.response.OapiUserUpdateResponse;
 import com.taobao.api.ApiException;
 
-import io.swagger.annotations.Api;
-import io.swagger.annotations.ApiOperation;
-import io.swagger.annotations.ApiParam;
-
 @Component
 @RestController
 @RequestMapping("/user")
-@Api(value="钉钉用户管理接口",tags="钉钉用户管理接口")
 public class DingTalkUserService {
 
 	@Autowired
@@ -83,9 +78,8 @@ public class DingTalkUserService {
 	 *         "stateCode": "86", //手机号码区号 "position": "manager" //职位信息 }
 	 * @throws ApiException
 	 */
-    @ApiOperation(value = "查询用户信息")
 	@GetMapping
-	public OapiUserGetResponse getUser(@ApiParam(value = "用户id", required = true) String userId) throws ApiException {
+	public OapiUserGetResponse getUser(String userId) throws ApiException {
 		DingTalkClient client = new DefaultDingTalkClient(dingtalkProperties.getApi().getUserInfo());
 		OapiUserGetRequest request = new OapiUserGetRequest();
 		request.setUserid(userId);
