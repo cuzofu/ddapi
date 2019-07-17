@@ -1,4 +1,4 @@
-package com.cuzfou.ddapi;
+package com.cuzofu.ddapi;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
