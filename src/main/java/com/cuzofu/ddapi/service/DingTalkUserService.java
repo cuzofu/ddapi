@@ -1,4 +1,4 @@
-package com.cuzfou.ddapi.service;
+package com.cuzofu.ddapi.service;
 
 import java.util.List;
 
@@ -13,9 +13,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
-import com.cuzfou.ddapi.auth2.DingtalkOAuth2AccessToken;
-import com.cuzfou.ddapi.pojo.DingTalkUser;
-import com.cuzfou.ddapi.properties.DingtalkProperties;
+import com.cuzofu.ddapi.auth2.DingtalkOAuth2AccessToken;
+import com.cuzofu.ddapi.pojo.DingTalkUser;
+import com.cuzofu.ddapi.properties.DingtalkProperties;
 import com.dingtalk.api.DefaultDingTalkClient;
 import com.dingtalk.api.DingTalkClient;
 import com.dingtalk.api.request.OapiUserBatchdeleteRequest;

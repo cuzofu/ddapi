@@ -1,4 +1,4 @@
-package com.cuzfou.ddapi.auth2;
+package com.cuzofu.ddapi.auth2;
 
 /**
  * 获取accesstoken接口定义

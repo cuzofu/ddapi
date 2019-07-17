@@ -1,4 +1,4 @@
-package com.cuzfou.ddapi.properties;
+package com.cuzofu.ddapi.properties;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

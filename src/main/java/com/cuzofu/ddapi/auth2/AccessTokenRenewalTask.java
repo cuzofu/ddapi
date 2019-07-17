@@ -1,4 +1,4 @@
-package com.cuzfou.ddapi.auth2;
+package com.cuzofu.ddapi.auth2;
 
 import java.util.concurrent.TimeUnit;
 

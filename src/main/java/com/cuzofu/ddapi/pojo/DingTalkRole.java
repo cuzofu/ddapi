@@ -1,4 +1,4 @@
-package com.cuzfou.ddapi.pojo;
+package com.cuzofu.ddapi.pojo;
 
 public class DingTalkRole {
 

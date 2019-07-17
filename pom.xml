@@ -8,7 +8,7 @@
 		<version>2.1.6.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.cuzfou</groupId>
+	<groupId>com.cuzofu</groupId>
 	<artifactId>ddapi</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>ddapi</name>
@@ -48,6 +48,11 @@
 			<groupId>com.alibaba</groupId>
 			<artifactId>fastjson</artifactId>
 			<version>1.2.58</version>
+		</dependency>
+		<dependency>
+			<groupId>com.cuzofu</groupId>
+			<artifactId>taobao-sdk</artifactId>
+			<version>1479188381469-20190612</version>
 		</dependency>
 <!-- 
 		<dependency>

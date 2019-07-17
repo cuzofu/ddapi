@@ -1,4 +1,4 @@
-package com.cuzfou.ddapi.service;
+package com.cuzofu.ddapi.service;
 
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -8,9 +8,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
-import com.cuzfou.ddapi.auth2.DingtalkOAuth2AccessToken;
-import com.cuzfou.ddapi.pojo.DingTalkDepartment;
-import com.cuzfou.ddapi.properties.DingtalkProperties;
+import com.cuzofu.ddapi.auth2.DingtalkOAuth2AccessToken;
+import com.cuzofu.ddapi.pojo.DingTalkDepartment;
+import com.cuzofu.ddapi.properties.DingtalkProperties;
 import com.dingtalk.api.DefaultDingTalkClient;
 import com.dingtalk.api.DingTalkClient;
 import com.dingtalk.api.request.OapiDepartmentCreateRequest;

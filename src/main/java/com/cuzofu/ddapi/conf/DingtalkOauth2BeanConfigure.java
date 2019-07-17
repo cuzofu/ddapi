@@ -1,15 +1,15 @@
-package com.cuzfou.ddapi.conf;
+package com.cuzofu.ddapi.conf;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import com.cuzfou.ddapi.auth2.DefaultDingtalkOAuth2AccessToken;
-import com.cuzfou.ddapi.auth2.DefaultDingtalkToken;
-import com.cuzfou.ddapi.auth2.DingtalkOAuth2AccessToken;
-import com.cuzfou.ddapi.auth2.DingtalkToken;
-import com.cuzfou.ddapi.properties.DingtalkProperties;
+import com.cuzofu.ddapi.auth2.DefaultDingtalkOAuth2AccessToken;
+import com.cuzofu.ddapi.auth2.DefaultDingtalkToken;
+import com.cuzofu.ddapi.auth2.DingtalkOAuth2AccessToken;
+import com.cuzofu.ddapi.auth2.DingtalkToken;
+import com.cuzofu.ddapi.properties.DingtalkProperties;
 
 @Configuration
 public class DingtalkOauth2BeanConfigure {
