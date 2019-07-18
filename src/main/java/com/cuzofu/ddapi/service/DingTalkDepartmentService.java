@@ -111,6 +111,7 @@ public class DingTalkDepartmentService {
 			outerDeptOnlySelf	Boolean		否		outerDept为true时，可以配置该字段，为true时，表示只能看到所在部门及下级部门通讯录
 			orgDeptOwner		String		否		企业群群主
 			sourceIdentifier	String		否		部门标识字段，开发者可用该字段来唯一标识一个部门，并与钉钉外部通讯录里的部门做映射
+	 * @param lang 通讯录语言(默认zh_CN另外支持en_US)
 	 * @return
 	 * @throws ApiException
 	 */
