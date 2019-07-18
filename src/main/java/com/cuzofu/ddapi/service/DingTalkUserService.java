@@ -38,7 +38,7 @@ import com.taobao.api.ApiException;
 
 @Component
 @RestController
-@RequestMapping("/user")
+@RequestMapping("/cdd/user")
 public class DingTalkUserService {
 
 	@Autowired

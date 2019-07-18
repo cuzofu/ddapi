@@ -44,7 +44,7 @@ import com.taobao.api.ApiException;
  */
 @Component
 @RestController
-@RequestMapping("/role")
+@RequestMapping("/cdd/role")
 public class DingTalkRoleService {
 
 	@Autowired
