@@ -250,6 +250,7 @@ public class DingTalkDepartmentService {
 	}
 
 	/**
+	 * 查询指定用户的所有上级父部门路径
 	 * 
 	 * @param userid 希望查询的用户的id
 	 * @return parentIds	该部门的所有父部门id列表([[456,123,1],[789,1]])
